@@ -1,0 +1,97 @@
+*
+{
+    margin: 0px 0px;
+}
+.top
+{
+   width: 100%;
+   height: 4rem;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   justify-content: right;
+}
+.right
+{
+    width: 3rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 0.2rem;
+    border: 0.01rem solid black;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pass
+{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.right img,
+.lite img,
+.dark img
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.main
+{
+    padding: 0.5rem;
+    padding-top: 2rem;
+    width: 16rem;
+    height: auto;
+    border: 0.01rem solid black;
+    background-color: rgb(255, 250, 250);
+    border-radius: 0.5rem;
+}
+input
+{
+    width: 14rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 0.01rem solid grey;
+    background-color: cyan;
+    margin-bottom: 0.7rem;
+}
+.sear
+{
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    width: 4rem;
+    background-color: rgb(13, 217, 13);
+    border: 0.01rem solid black;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.res
+{
+    padding: 0.2rem;
+    width: 4rem;
+    background-color: rgb(229, 18, 18);
+    border: 0.01rem solid black;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+#err
+{
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+#pas
+{
+    color: rgb(13, 216, 33);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+#rs
+{
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
