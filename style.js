@@ -15,7 +15,7 @@ function mode()
     if(change===true)
     {
          behave.innerHTML=`<div class="lite">
-        <img src="light.png" alt="">
+        <img src="/Contents/Icons/light.png" alt="">
       </div>`;
          behave.style.backgroundColor="black";
          behave.style.borderColor="white";
@@ -27,7 +27,7 @@ function mode()
     else
     {
         behave.innerHTML=`<div class="dark">
-        <img src="night.png" alt="">
+        <img src="/Contents/Icons/night.png" alt="">
       </div>`;
         behave.style.backgroundColor="white";
         behave.style.borderColor="black";
